@@ -39,16 +39,26 @@ h1 {
 a:link {
 	text-decoration: none;
 	color:#BC8F8F;
-}
+} /*text decoration of 'none' gets rid of the underline of a link*/
 
 a:visited {
 	color:#BC8F8F;
-}
+} /*this changes the color of the link after visiting or clicking*/
 
-a img {
+img {
 	display:none;
-}
+}   /* this prevents the images from displaying on the page*/
 
 a:hover img {
 	display:block;
-}
+} /*this displays the image when hovering. changing the selector to img:hover or removing img will prevent the images from appearing when hovering.*/
+
+a:hover {
+	color:#AFEEEE;
+} /*this changes the text when hovering*/
+
+li:hover {
+	color:#40E0D0;
+} /*this changes the color of the bullets in the list when hovering*/
+
+
