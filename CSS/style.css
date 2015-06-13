@@ -29,13 +29,22 @@ body {
 	background-color:#40E0D0;
 	color:#BC8F8F;
 	font-family:tahoma;
+	font-size:16px;
 }
 
 h1 {
 	text-align: center;
 	text-decoration: underline;
-	font-size: 48px;
-}
+	font-size: 3em;
+} /*em is useful for flexibility in defining page proportion*/
+
+img {
+	display:none;
+}   /* this prevents the images from displaying on the page*/
+
+a:hover img {
+	display:block;
+} /*this displays the image when hovering. changing the selector to img:hover or removing img will prevent the images from appearing when hovering.*/
 
 a:link {
 	text-decoration: none;
@@ -46,22 +55,15 @@ a:visited {
 	color:#BC8F8F;
 } /*this changes the color of the link after visiting or clicking.  in this case, i wanted the color to stay the same.*/
 
-img {
-	display:none;
-}   /* this prevents the images from displaying on the page*/
-
-a:hover img {
-	display:block;
-} /*this displays the image when hovering. changing the selector to img:hover or removing img will prevent the images from appearing when hovering.*/
-
 a:hover {
 	color:#AFEEEE;
 } /*this changes the text color when hovering*/
+
+a:active {
+	font-size:0.75em;
+} /*this changes the font size when "activating" the link, or clicking on it.*/
 
 li:hover {
 	color:#40E0D0;
 } /*this changes the color of the bullets in the list when hovering*/
 
-a:active {
-	font-size:12px;
-} /*this changes the font size when "activating" the link, or clicking on it.*/
