@@ -1,4 +1,54 @@
-a, p
-{color:#E6E6FA;
-background:#FF00FF;
+/*body {
+	background-color:#40E0D0;
+}
+
+h1, p {
+	color:#BC8F8F;
+}
+
+p {
+	font-size:14px;
+	font-family:Arial;
+}
+
+h1 {
+	font-family:Tahoma;
+	font-style:italic;
+	text-decoration: underline;
+}
+
+a {
+	background-color:#DDA0DD;
+}
+
+
+*/
+
+body {
+	background-color:#40E0D0;
+	color:#BC8F8F;
+	font-family:tahoma;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 48px;
+}
+
+a:link {
+	text-decoration: none;
+	color:#BC8F8F;
+}
+
+a:visited {
+	color:#BC8F8F;
+}
+
+a img {
+	display:none;
+}
+
+a:hover img {
+	display:block;
 }
