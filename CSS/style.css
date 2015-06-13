@@ -1,4 +1,5 @@
-/*body {
+/* this is the original code i used, but decided to style it some more with below
+body {
 	background-color:#40E0D0;
 }
 
@@ -43,7 +44,7 @@ a:link {
 
 a:visited {
 	color:#BC8F8F;
-} /*this changes the color of the link after visiting or clicking*/
+} /*this changes the color of the link after visiting or clicking.  in this case, i wanted the color to stay the same.*/
 
 img {
 	display:none;
@@ -55,10 +56,12 @@ a:hover img {
 
 a:hover {
 	color:#AFEEEE;
-} /*this changes the text when hovering*/
+} /*this changes the text color when hovering*/
 
 li:hover {
 	color:#40E0D0;
 } /*this changes the color of the bullets in the list when hovering*/
 
-
+a:active {
+	font-size:12px;
+} /*this changes the font size when "activating" the link, or clicking on it.*/
