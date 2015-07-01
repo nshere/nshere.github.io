@@ -1,0 +1,54 @@
+
+ body {
+                text-align: center;
+                font-size: 24px;
+                font-family: Helvetica, sans-serif;
+                font-weight: 200;
+                background-color:#EEE2FF;
+                color:#BC8F8F;
+}
+
+nav{
+        padding-top:0.2px;
+        padding-bottom:0.2px;
+        border: solid;
+        border-color:#000;
+}
+
+h1 {
+                text-align: center;
+                text-decoration: underline;
+                font-size: 3em;
+} 
+ 
+img {
+        height: 571px;
+        width: 402px;
+        padding-top: 50px;
+ }
+
+ a {
+                color:#8005ff;
+}
+ 
+ul {
+        text-align: center;
+        list-style-type: none;
+        padding-right: 50px;
+        padding-left: 50px;
+}
+
+#slogan {
+ 
+        font-style: italic;
+        color:#BB0459;
+        padding-top: 25px;
+        padding-right: 50px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+}
+ 
+#contact {
+                text-decoration: none;
+                font-size:.6em;
+}
