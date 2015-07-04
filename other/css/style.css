@@ -4,7 +4,7 @@
                 font-size: 24px;
                 font-family: Helvetica, sans-serif;
                 font-weight: 200;
-                background:url("pinkgraph3.png");
+                background:url("../images/pinkgraph3.png");
                 background-size:cover;
                 color:#BC8F8F;
 }
@@ -18,7 +18,6 @@ nav{
 
 h1 {
                 text-align: center;
-                text-decoration: underline;
                 font-size: 3em;
 } 
  
@@ -32,11 +31,12 @@ img {
                 color:#8005ff;
 }
  
-ul {
+li {
         text-align: center;
         list-style-type: none;
         padding-right: 50px;
         padding-left: 50px;
+        display: inline;
 }
 
 #slogan {
