@@ -1,108 +1,116 @@
+/** {
+        margin:0;
+        padding:0;
+} *//*beginning of reset
 
 /*@import url(http://fonts.googleapis.com/css?family=Codystar:300,400);*/
+/*@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700&subset=latin,latin-ext);*/
 @import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
 
  body {
-        text-align: center;
         font-size: 16px;
-        font-family: 'Special Elite', sans-serif;
-        /*font-weight: 200;*/
-        /*background:url(../images/pinkgraph3.png);*/
-        background:url(http://i.imgur.com/uKWRnAI.png);
+        font-family: 'Raleway', sans-serif;
+        background:url(../images/pinkgraph3.png);
         background-attachment: fixed;
         background-size:cover;
         color:#BC8F8F;
 }
 
-h1 {
-        color:#000;
-        font-size: 5em;
+#headline1, h1 {
+        font-family:'Special Elite', sans-serif;
+        color:#50514F;
+        font-size:2.5em;
+        text-decoration:none;
+        text-align: left;
 }
 
 nav {
-        padding-top:0.2px;
-        padding-bottom:0.2px;
+        
+        margin:auto;
+        width:80%;
+        font-size:1.2em;
+        /*position: fixed;
+        padding-top:1em;
+        padding-bottom:0.0125em;
+        padding-right:1em;
         border: 0.5em dashed;
         border-color:#000;
-        border-width:1px;
-        font-size:.8em;
-        font-family: helvetica, sans-serif;
-        /*position: fixed;*/
+        border-width:1px;*/
 }
 
-h2 {
-        text-align: center;
-        font-size:2em;
-}
-
- a {
-        color:#000;
-        text-decoration: none;
-        font-family:helvetica, sans-serif;
-}
-
-a:hover {
-        color:#0FF4F9;
-        font-weight:bold;
-}
-
- 
 li {
         text-align: center;
         list-style-type: none;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 10px;
+        padding-left: 10px;
         display: inline;
-        margin:.12em;
+        margin:auto;
 }
 
 #slogan {
- 
-        font-style: italic;
-        font-family:helvetica, sans-serif;
-        color:#BB0459;
+        text-align:center;
+        font-family:'Special Elite', serif;
+        color:#50514F;
+        font-size:1.5em;
         padding-top: 25px;
         padding-right: 50px;
         padding-bottom: 25px;
         padding-left: 50px;
 }
 
+
+.menu, .readmore, #contact {
+        color:#000;
+        text-decoration: none;
+        font-family:'Raleway', sans-serif;
+        font-weight:700;
+}
+
+.menu:hover, .readmore:hover, #contact:hover {
+        background-color:#50514F;
+        color:#FFF;
+        padding:5px;
+}
+
+
+h2 {
+        text-align: center;
+        font-size:2em;
+        font-family:'Raleway', sans-serif;
+        color:#50514F;
+}
+
+.review {
+        font-family:'Droid Serif', serif;
+        font-size: 1em;
+        line-height:1.5em;
+        width: 50%; /*adjusts size of sec*/
+        border: 0.1em solid; /*creates a border around sec.  without this, the background color would not be contained */
+        padding: 5em; 
+        text-align:center;
+        margin:auto; /*centers sec*/
+}
+
 #sec1 {
         background-color:rgba(242,228,229,0.3);
-        font-family:helvetica, sans-serif;
-        font-size:.8em;
-        width: 40%; /*adjusts size of sec1*/
-        border: 0.1em solid; /*creates a border around sec1.  without this, the background color would not be contained*/
-        padding: 1em; 
-        text-align:center;
-        margin:auto; /*centers sec1*/
+        color:#D533E1;
 }
 
 #sec2 {
-        background-color:rgba(13,255,193,0.3);
-        font-family:helvetica, sans-serif;
-        font-size:.8em;
-        width: 40%; /*adjusts size of sec2*/
-        border: 0.1em solid; /*creates a border around sec2.  without this, the background color would not be contained*/
-        padding: 1em; 
-        text-align:center;
-        margin:auto; /*centers sec2*/
+        background-color:rgba(13,255,193,0.5);
+        color:#376EE1;
 }
 
 #sec3 {
-        background-color:rgba(109,144,156,0.3);
-        font-family:helvetica, sans-serif;
-        font-size:.8em;
-        width: 40%; /*adjusts size of sec3*/
-        border: 0.1em solid; /*creates a border around sec3.  without this, the background color would not be contained*/
-        padding: 1em; 
-        text-align:center;
-        margin:auto; /*centers sec3*/
+        background-color:rgba(109,144,156,0.2);
+        color:#BC8F8F
 }
 
-
-#contact {
-        color:#0DFFC1;
-        text-decoration: none;
-        font-size:.6em;
+footer {
+        margin-top:20px;
+        text-align: left;
 }
+
