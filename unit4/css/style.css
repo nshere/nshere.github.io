@@ -44,10 +44,9 @@ nav {
 li {
         text-align: center;
         list-style-type: none;
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
         display: inline;
-        margin:auto;
 }
 
 #slogan {
@@ -62,18 +61,19 @@ li {
 }
 
 
-.menu, .readmore, #contact {
+.readmore, nav a {
         color:#000;
         text-decoration: none;
         font-family:'Raleway', sans-serif;
         font-weight:700;
+        padding:5px; /*instead of adding padding to the hover selector, add the padding to the anchors instead to prevent shifting when hovering*/
 }
 
-.menu:hover, .readmore:hover, #contact:hover {
+
+.readmore:hover, nav a:hover {
         background-color:#50514F;
         color:#FFF;
-        padding:5px;
-}
+      }  
 
 
 h2 {
