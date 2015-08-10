@@ -1,0 +1,238 @@
+/*@import url(http://fonts.googleapis.com/css?family=Codystar:300,400);
+/*@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700&subset=latin,latin-ext);*/
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+* {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+} /*reset*/
+
+
+ body {
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        color:#BC8F8F;
+        background: #FFFFFF;
+}
+
+h1 {
+text-align: left;
+}
+
+#wordmark {
+        font-family:'Special Elite', sans-serif;
+        color:#50514F;
+        font-size:2.5em;
+        text-decoration:none;
+}
+
+nav {
+        font-family: 'Raleway', sans-serif;
+/*      position: fixed;
+        top:10%;
+        width: 100%;*/
+}
+
+nav a {
+    display: block;
+    float: left;
+    margin: 0 2% 0 2%;
+    padding:5px; /*instead of adding padding to the hover selector, add the padding to the anchors instead to prevent shifting when hovering*/
+}
+
+nav a {
+        color:#000;
+        text-decoration: none;
+        font-family:'Raleway', sans-serif;
+        font-weight:700;
+}
+
+nav a:hover {
+    background-color:#50514F;
+    color:#FFF;
+    border-radius:.5em;
+}  
+
+.readmore {
+        color:#000;
+        text-decoration: none;
+        font-family:'Raleway', sans-serif;
+        font-weight:700;
+        border-radius:1em;
+        border: .1em #50514F solid;
+        padding: 1em;
+        width:2%;
+        margin: 10% 0;
+}
+
+.readmore:hover {
+    background-color:#50514F;
+    color:#FFF;
+}
+
+h2 {
+        text-align: center;
+        font-size:2em;
+        font-family:'Raleway', sans-serif;
+        color:#50514F;
+}
+
+img {
+    margin:0 0 0 10%;
+}
+
+.wrap {
+    margin: 10px 0;
+}
+
+#slogan {
+
+    background:url(../images/pinkgraph3.png);
+    background-attachment: fixed; /*this makes my husband crazy in the eyes */
+    background-size:cover;
+    padding: 5em;
+    text-align:center;
+    font-family:'Special Elite', serif;
+    color:#50514F;
+    font-size:1.5em;
+}
+
+.col2 {
+    float: left;
+    width: 48%;
+    margin: 2% 1%;
+}
+
+.col2 p {
+    font-family:'Raleway', sans-serif;
+    font-size: 1.25em;
+    color:#50514F;
+}
+
+#makeup {
+    background-color:rgba(242,228,229,0.3);
+}
+
+#skincare {
+    background-color:rgba(219,255,255,0.5);
+}
+
+#about {
+    background-color:rgba(233,252,156,1);
+}
+
+#makeup_par, #skincare_par {
+    margin:0 28% 0 10%;
+    text-align:justify;
+}
+
+#makeup_head, #skincare_head, #about_head {
+    padding: 1em;
+    border-bottom: solid 1px #50514F;
+    border-width: 1px
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width:768px){
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav a {
+        float: none;
+        text-align: center;
+    }
+
+    .col2 {
+        float: none;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    body {
+        font-size: 12px;
+    }
+
+    img {
+        width:100%;
+}
+}
+
+
+/*
+div, nav, section {
+    border: 1px solid #ff0000;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.review {
+        font-family:'Droid Serif', serif;
+        font-size: 1em;
+        line-height:1.5em;
+        width: 50%; /*adjusts size of sec*/
+        border: 0.1em solid; creates a border around sec.  without this, the background color would not be contained 
+        padding: 5em; 
+        text-align:center;
+        margin:auto; /*centers sec*/
+}
+
+#sec1 {
+        background-color:rgba(242,228,229,0.3);
+        color:#D533E1;
+}
+
+#sec2 {
+        background-color:rgba(13,255,193,0.5);
+        color:#376EE1;
+}
+
+#sec3 {
+        background-color:rgba(109,144,156,0.2);
+        color:#BC8F8F
+}
+
+footer {
+        margin-top:20px;
+        text-align: left;
+}
