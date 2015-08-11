@@ -41,14 +41,11 @@ nav a {
     display: block;
     float: left;
     margin: 0 2% 0 2%;
-    padding:5px; /*instead of adding padding to the hover selector, add the padding to the anchors instead to prevent shifting when hovering*/
-}
-
-nav a {
-        color:#000;
-        text-decoration: none;
-        font-family:'Raleway', sans-serif;
-        font-weight:700;
+    padding:.3em; /*instead of adding padding to the hover selector, add the padding to the anchors instead to prevent shifting when hovering*/
+    color:#000;
+    text-decoration: none;
+    font-family:'Raleway', sans-serif;
+    font-weight:700;
 }
 
 nav a:hover {
@@ -57,13 +54,44 @@ nav a:hover {
     border-radius:.5em;
 }  
 
+h2 {
+        text-align: center;
+        font-size:2em;
+        font-family:'Raleway', sans-serif;
+        color:#FFFFFF;
+}
+
+#slogan {
+
+    background:url(../images/misc2.png);
+    background-attachment: fixed; /*this makes my husband crazy in the eyes */
+    background-size:cover;
+    padding: 7em;
+    text-align:center;
+    font-family:'Special Elite', serif;
+    color:#BBC1C4;
+    font-size:2em;
+    font-weight:200;
+}
+
+#slogan h2 {
+        text-align: center;
+        font-size:2.5em;
+        font-family:'Raleway', sans-serif;
+        color:#BBC1C4;
+}
+
+img {
+    margin:0 0 0 10%;
+}
+
 .readmore {
-        color:#000;
+        color:#FFFFFF;
         text-decoration: none;
         font-family:'Raleway', sans-serif;
         font-weight:700;
         border-radius:1em;
-        border: .1em #50514F solid;
+        border: .1em #FFFFFF solid;
         padding: 1em;
         width:2%;
         margin: 10% 0;
@@ -74,32 +102,6 @@ nav a:hover {
     color:#FFF;
 }
 
-h2 {
-        text-align: center;
-        font-size:2em;
-        font-family:'Raleway', sans-serif;
-        color:#50514F;
-}
-
-img {
-    margin:0 0 0 10%;
-}
-
-.wrap {
-    margin: 10px 0;
-}
-
-#slogan {
-
-    background:url(../images/pinkgraph3.png);
-    background-attachment: fixed; /*this makes my husband crazy in the eyes */
-    background-size:cover;
-    padding: 5em;
-    text-align:center;
-    font-family:'Special Elite', serif;
-    color:#50514F;
-    font-size:1.5em;
-}
 
 .col2 {
     float: left;
@@ -107,33 +109,44 @@ img {
     margin: 2% 1%;
 }
 
-.col2 p {
+.col2 h2, #about h2 {
+    padding: 1em;
+    border-bottom: solid .05em #FFFFFF;
+}
+
+.col2 p, #about p {
     font-family:'Raleway', sans-serif;
     font-size: 1.25em;
-    color:#50514F;
+    color:#FFFFFF;
+}
+
+#about p {
+    width:50%;
+    margin: auto;
 }
 
 #makeup {
-    background-color:rgba(242,228,229,0.3);
+    background-color:#00A2FF;
 }
 
 #skincare {
-    background-color:rgba(219,255,255,0.5);
+    background-color:#FF360C;
 }
 
 #about {
-    background-color:rgba(233,252,156,1);
+    background: url(../images/glitterbomb2.png);
+    background-size: cover;
+    padding:4em;
 }
+
 
 #makeup_par, #skincare_par {
     margin:0 28% 0 10%;
     text-align:justify;
 }
 
-#makeup_head, #skincare_head, #about_head {
-    padding: 1em;
-    border-bottom: solid 1px #50514F;
-    border-width: 1px
+.wrap {
+    margin: 10px 0;
 }
 
 .clearfix:after {
