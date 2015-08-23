@@ -32,9 +32,9 @@ text-align: left;
 
 nav {
         font-family: 'Raleway', sans-serif;
-/*      position: fixed;
-        top:10%;
-        width: 100%;*/
+      /*position: fixed;*/
+        /*top:10%;*/
+        /*width: 100%;*/
 }
 
 nav a {
@@ -112,6 +112,7 @@ img {
 .col2 h2, #about h2 {
     padding: 1em;
     border-bottom: solid .05em #FFFFFF;
+    width:30%;
 }
 
 .col2 p, #about p {
@@ -158,6 +159,11 @@ img {
     height: 0;
 }
 
+.col2 a {
+    display:block;
+    width:30%;
+}
+
 @media only screen and (max-width:768px){
     body {
         font-size: 14px;
@@ -175,6 +181,10 @@ img {
     .col2 {
         float: none;
     }
+
+    p {
+        float:none;
+    }
 }
 
 
@@ -189,11 +199,13 @@ img {
 }
 
 
-/*
+
+
+
 div, nav, section {
     border: 1px solid #ff0000;
 }
-*/
+
 
 
 
